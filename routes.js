@@ -415,10 +415,6 @@ routes.post('/pago', (req, res) => {
             const montoDiario = rows[0].pagos;
             const finiquitado = saldoRestante - monto;
 
-            console.log(montoDiario)
-            console.log(finiquitado);
-            console.log(monto);
-
 
             if ((monto < montoDiario) && finiquitado === 0) {
 

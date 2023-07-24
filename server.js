@@ -8,16 +8,14 @@ const routes = require('./routes')
 const app = express()
 
 app.set('port', process.env.PORT || 5176)
-
-
-// middlewares
+ 
 
 const dbOptions = {
 
-    host: 'localhost',
+    host: 'database-cadofi-pi.cb818gwnhvze.us-east-1.rds.amazonaws.com',
     port: '3306',
-    user: 'root',   
-    password: '123456',
+    user: 'admin',   
+    password: '12345678',
     database: 'cadofi'
 
 }
