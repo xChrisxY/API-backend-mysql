@@ -444,7 +444,6 @@ routes.post('/pago', (req, res) => {
 
                 })
 
-
             } else if (monto >= montoDiario && finiquitado > 0) {
 
                 console.log("3")
